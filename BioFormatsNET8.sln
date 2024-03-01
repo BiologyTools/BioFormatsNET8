@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioFormatsNET8", "BioFormatsNET8.csproj", "{2F8601A4-725C-45E2-AE09-7DA2D1184779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F8601A4-725C-45E2-AE09-7DA2D1184779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8601A4-725C-45E2-AE09-7DA2D1184779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8601A4-725C-45E2-AE09-7DA2D1184779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8601A4-725C-45E2-AE09-7DA2D1184779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CAEC3AB-3E95-405B-876F-1DE1D57A406B}
+	EndGlobalSection
+EndGlobal
