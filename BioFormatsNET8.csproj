@@ -4,12 +4,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>BioFormats.NET8</Title>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>7.2.0</Version>
+    <Authors>Erik Repo</Authors>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>Bioformats 7.2.0 (https://www.openmicroscopy.org/bio-formats/) Built with IKVM 8.7.5 for x64, Arm64.</Description>
+    <RepositoryUrl>https://github.com/ome/bioformats</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BiologyTools/BioFormatsNET8</PackageProjectUrl>
+    <PackageTags>ome; bio-formats; omero;</PackageTags>
+    <PackageReleaseNotes>First release of BioFormats.NET8.</PackageReleaseNotes>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="bioformats_package.dll" />
-    <None Remove="google.collect.dll" />
-  </ItemGroup>
   <ItemGroup>
     <Content Include="bioformats_package.dll">
       <Pack>True</Pack>
@@ -18,10 +25,6 @@
     <Content Include="google.collect.dll">
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0</PackagePath>
-    </Content>
-    <Content Include="Readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -41,5 +44,11 @@
       <References>google-collect-1.0.jar</References>
     </IkvmReference>
     <IkvmReference Include="google-collect-1.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
