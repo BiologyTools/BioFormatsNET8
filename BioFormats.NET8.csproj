@@ -7,16 +7,19 @@
     <Title>BioFormats.NET8</Title>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>7.2.0</Version>
+    <Version>7.2.0.1</Version>
     <Authors>Erik Repo</Authors>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Description>Bioformats 7.2.0 (https://www.openmicroscopy.org/bio-formats/) Built with IKVM 8.7.5 for x64, Arm64.</Description>
+    <Description>Bioformats 7.2.0 (https://www.openmicroscopy.org/bio-formats/) Built with IKVM 8.8.0 for x64, Arm64.</Description>
     <RepositoryUrl>https://github.com/ome/bioformats</RepositoryUrl>
     <PackageProjectUrl>https://github.com/BiologyTools/BioFormatsNET8</PackageProjectUrl>
     <PackageTags>ome; bio-formats; omero;</PackageTags>
-    <PackageReleaseNotes>First release of BioFormats.NET8.</PackageReleaseNotes>
+    <PackageReleaseNotes>IKVM 8.8.0 Update.</PackageReleaseNotes>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="IKVM" Version="8.8.0" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="bioformats_package.dll">
       <Pack>True</Pack>
@@ -26,9 +29,10 @@
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0</PackagePath>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.7.5" />
+    <Content Include="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <IkvmReference Include="bioformats_package.jar">
