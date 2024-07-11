@@ -21,19 +21,16 @@
     <Content Include="bioformats_package.dll">
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0</PackagePath>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="google.collect.dll">
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0</PackagePath>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup> 
+  <ItemGroup>
+    <PackageReference Include="IKVM" Version="8.8.1" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.8.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bioformats_package.jar" />
     <Content Include="Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
