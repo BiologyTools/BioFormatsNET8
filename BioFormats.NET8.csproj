@@ -21,10 +21,12 @@
     <Content Include="bioformats_package.dll">
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0</PackagePath>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="google.collect.dll">
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0</PackagePath>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
