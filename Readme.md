@@ -1,1 +1,1 @@
-﻿Bioformats 7.3.0 (https://www.openmicroscopy.org/bio-formats/) Built with IKVM 8.8.0 for x64, Arm64.
+﻿Bioformats 8.0.0 (https://www.openmicroscopy.org/bio-formats/) Built with IKVM 8.10.2 for x64, Arm64.
