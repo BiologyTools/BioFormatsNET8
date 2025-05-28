@@ -7,15 +7,16 @@
     <Title>BioFormats.NET8</Title>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>8.1.0</Version>
+    <Version>8.2.0</Version>
     <Authors>Erik Repo</Authors>
+	<PackageVersion>8.2.0</PackageVersion>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Description>Bioformats 8.1.0 (https://www.openmicroscopy.org/bio-formats/) built with IKVM 8.11 for x64, Arm64.</Description>
+    <Description>Bioformats 8.2.0 (https://www.openmicroscopy.org/bio-formats/) built with IKVM 8.11 for x64, Arm64.</Description>
     <RepositoryUrl>https://github.com/ome/bioformats</RepositoryUrl>
     <PackageProjectUrl>https://github.com/BiologyTools/BioFormatsNET8</PackageProjectUrl>
     <PackageTags>ome; bio-formats; omero;</PackageTags>
-    <PackageReleaseNotes>Bio-Formats 8.1.0 update.</PackageReleaseNotes>
+    <PackageReleaseNotes>Bio-Formats 8.2.0 update.</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="bioformats_package.dll">
@@ -36,12 +37,12 @@
   <ItemGroup>
     <IkvmReference Include="bioformats_package.jar">
       <AssemblyName>bioformats_package</AssemblyName>
-      <AssemblyVersion>8.1.0</AssemblyVersion>
-      <AssemblyFileVersion>8.1.0</AssemblyFileVersion>
+      <AssemblyVersion>8.2.0</AssemblyVersion>
+      <AssemblyFileVersion>8.2.0</AssemblyFileVersion>
       <DisableAutoAssemblyName>true</DisableAutoAssemblyName>
       <DisableAutoAssemblyVersion>true</DisableAutoAssemblyVersion>
       <FallbackAssemblyName>bioformats_package</FallbackAssemblyName>
-      <FallbackAssemblyVersion>8.1.0</FallbackAssemblyVersion>
+      <FallbackAssemblyVersion>8.2.0</FallbackAssemblyVersion>
       <Compile>google-collect-1.0.jar</Compile>
       <References>google-collect-1.0.jar</References>
     </IkvmReference>
