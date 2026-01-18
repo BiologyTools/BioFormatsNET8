@@ -49,5 +49,5 @@
     <IkvmReference Include="google-collect-1.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.11.0" />
+    <PackageReference Include="IKVM" Version="8.15.0" />
   </ItemGroup></Project>
