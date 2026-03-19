@@ -12,7 +12,7 @@
 	<PackageVersion>8.5.0</PackageVersion>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Description>Bioformats 8.5.0 (https://www.openmicroscopy.org/bio-formats/) built with IKVM 8.11 for x64, Arm64.</Description>
+    <Description>Bioformats 8.5.0 (https://www.openmicroscopy.org/bio-formats/) built with IKVM for x64, Arm64.</Description>
     <RepositoryUrl>https://github.com/ome/bioformats</RepositoryUrl>
     <PackageProjectUrl>https://github.com/BiologyTools/BioFormatsNET8</PackageProjectUrl>
     <PackageTags>ome; bio-formats; omero;</PackageTags>
